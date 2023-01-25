@@ -1,0 +1,115 @@
+/* General styles */
+body{
+  background-color: #EDE6E3;
+  margin: 0px;
+  text-align: center;
+}
+h1{
+  color: #4B8F8C;
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 5.625rem;
+  margin: 3.125rem auto 0 auto;
+ 
+}
+h2{
+ color: #4B8F8C;
+ font-size: 2.5rem;
+ font-weight: normal;
+}
+h3{
+  color: #CB6976;
+  font-family: 'Damion', cursive;
+  
+  /* text-align: left; */
+}
+a{
+  color: #EDE6E3;
+}
+p{
+  font-family: 'Acme', sans-serif;
+}
+hr{
+  border-style: dotted none none none;
+  border-top-width: .5rem;
+  color: #CB697630; 
+  height: 0px;
+  margin: 3rem auto;
+  width: 6%;
+}
+
+/* Styling the "hi, im maggie" */
+.intro{
+  background-color: #4B8F8C;
+  color: #EDE6E3;
+  margin-top: 0px;
+}
+
+/* General styles of the top container */
+.top-container {
+  background-color: #4B8F8C;
+  padding-top: 100px;
+  position: relative;
+}
+.top-container h2{
+  color: #EDE6E3;
+}
+.top-cloud { 
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.profile img {
+  clip-path: circle(40%);
+}
+
+/* General styles of the middle container */
+/* .middle-container{ } currently unused*/
+ 
+.skill-row{
+  line-height: 2;
+  margin: 6.25rem auto;
+  text-align: left;
+  width: 50%;
+}
+.computer-img{
+  float: left;
+  margin-right: 1.875rem;
+  width: 25%;
+}
+.math-img{
+  float: right;
+  margin-left: 1.875rem;
+  width: 25%;
+}
+.btn{
+  background: linear-gradient(#F6AE2D, #ffa600);
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 25px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+  
+
+/* General styles of the bottom container */
+.bottom-container{
+  background-color: #AB5F8A;
+  margin: 1.25rem auto auto auto;
+  padding-top: 20px;
+}
+
+.btn:hover{
+  background: linear-gradient(#f1cd89, #ffaf1a);
+  /* box-shadow: 0px 0px 40px rgba(0,0,0,0.30); I ended up not liking this effect*/
+}
+#copyright{
+  color:#EDE6E3;
+  font-size: .75rem;
+}
