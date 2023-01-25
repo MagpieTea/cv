@@ -15,6 +15,7 @@ h2{
  color: #4B8F8C;
  font-size: 2.5rem;
  font-weight: normal;
+ font-family: 'Acme', sans-serif;
 }
 h3{
   color: #CB6976;
@@ -24,6 +25,10 @@ h3{
 }
 a{
   color: #EDE6E3;
+  font-family: 'Acme', sans-serif;
+}
+a:hover{
+  color:#F6AE2D;
 }
 p{
   font-family: 'Acme', sans-serif;
@@ -53,16 +58,18 @@ hr{
 .top-container h2{
   color: #EDE6E3;
 }
-.top-cloud { 
+.top-leaf { 
   position: absolute;
   right: 10%;
   top: 5%;
+  width: 10%;
 }
 
-.bottom-cloud{
+.bottom-leaf{
   position: absolute;
   bottom: 10%;
   left: 10%;
+  width: 10%;
 }
 
 .profile img {
@@ -83,6 +90,9 @@ hr{
   margin-right: 1.875rem;
   width: 25%;
 }
+.cookbook-website{
+  color:#CB6976;
+}
 .math-img{
   float: right;
   margin-left: 1.875rem;
@@ -102,7 +112,7 @@ hr{
 .bottom-container{
   background-color: #AB5F8A;
   margin: 1.25rem auto auto auto;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .btn:hover{
@@ -112,4 +122,6 @@ hr{
 #copyright{
   color:#EDE6E3;
   font-size: .75rem;
+  font-family: 'Acme', sans-serif;
+  opacity: 50%;
 }
